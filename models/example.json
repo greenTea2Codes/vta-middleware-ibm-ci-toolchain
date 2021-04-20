@@ -1,0 +1,125 @@
+{
+  "configuration": {
+    "course_id": "123456AB",
+    "course_name": "Software Engineering",
+    "topics": [
+      {
+        "title": "Software Development Life Cycle",
+        "topic_welcome_text": "Let's learn about Software Development Life Cycle (SDLC)!",
+        "subtopics": [
+          {
+            "title": "Introduction",
+            "subtopic_welcome_text": "SDLC refers to the process from planning to deploying a software artifact.",
+            "reference_id": "1.1"
+          }
+        ]
+      },
+      {
+        "title": "Agile Software Development",
+        "topic_welcome_text": "Welcome to learn Agile software development!",
+        "subtopics": [
+          {
+            "title": "Agile Manifesto",
+            "subtopic_welcome_text": "Let's revise agile principle!",
+            "reference_id": "2.1"
+          },
+          {
+            "title": "Scrum framework",
+            "subtopic_welcome_text": "Borrowed from rugby, Scrum is an agile framework for software development. Let's do some Scrum now!",
+            "reference_id": "2.2"
+          }
+        ]
+      }
+    ],
+    "template_type": "single-choice-exercise"
+  },
+  "questions": [
+    {
+      "question_id": "1.1.1",
+      "question_text": "What dose SDLC stand for?",
+      "question_type": "singleChoice",
+      "image_url": "",
+      "points": "",
+      "fallback": false,
+      "options": [
+        "Social Development Life Cycle",
+        "Single Developer Living Cost",
+        "Spontaneous Dance Life Concert",
+        "Software Development Life Cycle"
+      ],
+      "answer_items": [
+        {
+          "value": "Software Development Life Cycle",
+          "synonyms": []
+        }
+      ],
+      "response_to_correct_answer": "Good job!",
+      "response_to_incorrect_answer": "SDLC stands for Software Development Life Cycle."
+    },
+    {
+      "question_id": "2.1.1",
+      "question_text": "Which of the following statement is NOT in the Agile Manifesto?",
+      "question_type": "singleChoice",
+      "image_url": "",
+      "points": "",
+      "fallback": false,
+      "options": [
+        "Individuals and interactions over processes and tools",
+        "Working software over comprehensive documentation",
+        "Customer collaboration over contract negotiation",
+        "Share pizza with other team members"
+      ],
+      "answer_items": [
+        {
+          "value": "Share pizza with other team members",
+          "synonyms": []
+        }
+      ],
+      "response_to_correct_answer": "Good job!",
+      "response_to_incorrect_answer": "Other than pizza, the rest of statements are included in the Manifesto. Maybe you should take a break and eat something."
+    },
+    {
+      "question_id": "2.2.1",
+      "question_text": "What is Scrum framework?",
+      "question_type": "singleChoice",
+      "image_url": "",
+      "points": "",
+      "fallback": false,
+      "options": [
+        "A framework to play rugby",
+        "A sport",
+        "An agile framework for software development",
+        "A plan to eat kebab together once a week"
+      ],
+      "answer_items": [
+        {
+          "value": "An agile framework for software development",
+          "synonyms": []
+        }
+      ],
+      "response_to_correct_answer": "Good job!",
+      "response_to_incorrect_answer": "Scrum is an agile framework for software development."
+    },
+    {
+      "question_id": "2.2.2",
+      "question_text": "What is a Sprint?",
+      "question_type": "singleChoice",
+      "image_url": "",
+      "points": "",
+      "fallback": false,
+      "options": [
+        "A short and very fast race, such as the 100 metres, or the last part of a longer race that is run as fast as possible.",
+        "A daily 15-minute meeting when development team members discuss about what they have done, what issues they have encountered, and what they are going to do.",
+        "A basic unit for development, which has a fixed-length of time, commonly two week."
+      ],
+      "answer_items": [
+        {
+          "value": "A basic unit for development, which has a fixed-length of time, commonly two week.",
+          "synonyms": []
+        }
+      ],
+      "response_to_correct_answer": "Good job!",
+      "response_to_incorrect_answer": "Sprint is a basic unit for development, which has a fixed-length of time, commonly two week."
+    }
+  ]
+}
