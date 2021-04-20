@@ -3,7 +3,7 @@ applications:
   - name: vtaMiddleware
     memory: 256M
     disk_quota: 512M
-    path: ~/vta-middleware
+    path: /vat-middleware-ibm-ci-toolchain
     buildpacks:
       - nodejs_buildpack
     command: node app.js
